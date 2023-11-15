@@ -1,0 +1,145 @@
+/* Fontes */
+@font-face{
+	font-family: fonte1;
+	src: url(fontes/bubblegum-sans-regular.otf);
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#background {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: url(img/livro.avif) center center fixed;
+    background-size: cover;
+}
+
+#form {
+    position: relative;
+    top: 50%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 60px;
+    width: min-content;
+    color: #000000;
+    animation: iniciar 1.6s ease-out;
+    pointer-events: all;
+}
+
+h1.frase{
+	font-size: 1.2em;
+	font-family: fonte1;
+}
+.logos{
+	position: absolute;
+	right: 100%;
+	top: -2%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #020202;
+    font-weight: bold;
+}
+
+
+.titulo{
+	font-family: fonte1;
+	color: #5c3904;
+}
+
+.title {
+    font-size: 1.8rem;
+    margin-bottom: 10%;
+	font-family: fonte1;
+}
+
+.input {
+    min-width: 280px;
+    border-radius: 22px;
+    border: 2px #030303 solid;
+    padding: 5px;
+    margin: 0px 0px 12px -5px;
+	background: none;
+}
+
+.input i {
+    font-size: 1.2em;
+    padding: 5px;
+    background: -webkit-linear-gradient(-45deg, #333, #5c3904, #5c3904);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input input {
+    width: 80%;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    transform: translateY(-10%);
+    color: #000000;
+    font-size: 11pt;
+	background: none;
+}
+
+#btn {
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+#btn button {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(-45deg, #333, #333, #5c3904);
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+#btn button:hover {
+    background: linear-gradient(-45deg, #ddd6d6, #5c3904, #5c3904);
+}
+
+
+@keyframes iniciar {
+    0% {
+        top: -20%;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    100% {
+        top: 50%;
+        opacity: 100;
+        pointer-events: all;
+    }
+}
+
+
+
