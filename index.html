@@ -1,55 +1,162 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Livraria Online</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>The Book House</title>
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h1>Livraria Online</h1>
-            <p>Descubra uma vasta coleção de livros incríveis.</p>
-        </div>
-    </header>
+	<header>
+		<div class="container">
+			<h1>The Book House</h1>
+			<p>Livros incríveis no lugar certo</p>
+		</div>
+	</header>
 
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Livros</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </div>
-    </nav>
+	<nav>
+		<div class="container">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#livros">Livros</a></li>
+				<li><a href="menu.html">Menu</a></li>
+			</ul>
+		</div>
+	</nav>
 
-    <section id="livros">
-        <div class="container">
-            <article class="livro">
-                <img src="livro1.jpg" alt="Livro 1">
-                <h2>Livro 1</h2>
-                <p>Uma história envolvente que levará você a mundos desconhecidos.</p>
-                <p class="preco">$20.00</p>
-                <button>Adicionar ao Carrinho</button>
-            </article>
+	<!-- Propaganda -->
+	<div id="banners">
+		<img src="img/promo1.png" alt="Propaganda de livros" id="promo1">
+		<img src="img/promo2.png" alt="Propaganda de livros" id="promo2">
+	</div>
+	<div class="black">
+		<h1>Black Friday 2023: Chegou o momento de você comprar livros!</h1>
+		<h3>A Black Friday é um dos momentos mais aguardados do ano para os amantes da leitura, e a Lumisfera preparou os
+			melhores descontos para tornar esse dia ainda mais especial! Com ofertas incríveis e uma seleção de livros
+			diversa, a Black Friday Lumisfera está com livros de literatura com até 50% OFF + frete grátis para você
+			aproveitar.</h3>
+	</div>
 
-            <article class="livro">
-                <img src="livro2.jpg" alt="Livro 2">
-                <h2>Livro 2</h2>
-                <p>Uma jornada épica repleta de aventuras e descobertas.</p>
-                <p class="preco">$15.00</p>
-                <button>Adicionar ao Carrinho</button>
-            </article>
+	<!-- LER É IMPORTANTE -->
+	<section id="sobre">
+		<div class="container flex2">
+			<div class="destaque_sobre flex2">
+				<img src="img/bliblioteca.jpg" alt="bliblioteca">
+			</div>
+			<article class="texto_sobre">
+				<h2>A importância de ler</h2>
+				<p>Ler é mais do que decifrar palavras em uma página; é uma jornada enriquecedora que expande horizontes
+					e mente. A importância de ler transcende o simples ato de absorver informações; é um portal para o
+					conhecimento, uma fonte de imaginação e uma ferramenta vital para o desenvolvimento pessoal. A
+					leitura aprimora a compreensão, estimula a criatividade e fortalece as habilidades de comunicação.
+					Além disso, ela oferece um refúgio tranquilo em histórias cativantes e fornece as ferramentas
+					necessárias para a navegação bem-sucedida em um mundo cada vez mais complexo. Em suma, a leitura não
+					é apenas um hábito, mas uma habilidade fundamental que alimenta a mente, enriquece a alma e constrói
+					um alicerce sólido para o crescimento ao longo da vida.</p>
+			</article>
+		</div>
+	</section>
+	<!-- Livros -->
+	<section id="livros">
+		<div class="container">
+			<h1>Livros</h1>
+			<div class="cards flex2">
+				<article class="livro">
+					<img src="img/minhavidaforadeserie.jpg" alt="Livro Minha Vida Fora de Serie">
+					<h2>Minha Vida Fora de Série 3</h2>
+					<p>Uma história envolvente que levará você a mundos desconhecidos.</p>
+					<p class="preco">$44.90</p>
+					<button>Adicionar ao Carrinho</button>
+				</article>
 
-            <!-- Adicione mais artigos conforme necessário -->
-        </div>
-    </section>
+				<article class="livro">
+					<img src="img/91Pfn0oIoLL._AC_UL210_SR210_210_-removebg-preview.png" alt="Livro Joana D'ark">
+					<h2>Joana D'ark</h2>
+					<p>Uma jornada épica repleta de aventuras e descobertas.</p>
+					<p class="preco">$44.47</p>
+					<button>Adicionar ao Carrinho</button>
+				</article>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Livraria Online. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+				<article class="livro">
+					<img src="img/o-pequeno-principe-saint-exupery-antoine-de-autor-removebg-preview (1).png"
+						alt="Livro Pequeno Principe">
+					<h2>Pequeno Principe</h2>
+					<p>Uma jornada de um Principe e suas repletas aventuras</p>
+					<p class="preco">$29.67</p>
+					<button>Adicionar ao Carrinho</button>
+				</article>
+
+				<article class="livro">
+					<img src="img/fazendomeufilme.webp" alt="Livro Fazendo meu filme">
+					<h2>Fazendo meu filme 4</h2>
+					<p>Uma jornada épica repleta de aventuras e descobertas.</p>
+					<p class="preco">$62.42</p>
+					<button>Adicionar ao Carrinho</button>
+				</article>
+			</div>
+		</div>
+		
+	</section>
+	<!-- rodapé -->
+	<address>
+		<div class="container flex6">
+			<div class="contato">
+				<a href="https://api.whatsapp.com/send?phone=5511953192004" target="_blank">
+					<img src="img/whatsapp.png" alt="Abrir conversa">
+					<p>(11) 95319-2004</p>
+				</a>
+				<img src="img/fone.png" alt="Telefone">
+				<p>(11) 01234-1234</p>
+			</div>
+
+			<div class="endereco">
+				<a href="https://maps.app.goo.gl/DprdrUj3sCK7QbBy6" target="_blank">
+					<img src="img/mapa.png" alt="Local" class="icone_mapa">
+				</a>
+				<img src="img/local.png" alt="Local" class="icone_local">
+				<p>Av. Paulista, 2073</p>
+				<p>Consolação</p>
+				<p>São Paulo - SP</p>
+
+				<a href="mailto:seuemail@email.com?subject=FRONTEND">
+					<img src="img/email.png" alt="E-mail" title="Enviar e-mail">
+					<p>seuemail@email.com</p>
+				</a>
+				<p class="dados">&#128064; Endereço e dados de contato ficticíos.</p>
+			</div>
+
+			<div class="google-maps">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2696723601343!2d-46.66236062571374!3d-23.558756261494473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59daa85d02c7%3A0x4448e39d4356e38b!2sAv.%20Paulista%2C%202073%20-%20Consola%C3%A7%C3%A3o%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001311-300!5e0!3m2!1spt-BR!2sbr!4v1699837086922!5m2!1spt-BR!2sbr"
+					width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+	</address>
+	<footer id="contato">
+		<div class="container flex5">
+			<div class="copyright">
+				<p>&#169; Somente para fins educativos.</p>
+			</div>
+			<div class="social">
+				<a href="https://www.instagram.com/luiz._siilva/" target="_blank"><img src="img/instagram.png"
+						alt="Instagram">
+				</a>
+				<a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" alt="Facebook">
+				</a>
+				<a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fsettings%2Faccount"
+					target="_blank"><img src="img/twitter.png" alt="Twitter">
+				</a>
+			</div>
+		</div>
+	</footer>
+	<a href="#" id="topo">
+		<img src="img/topo.png" alt="Ir para o topo do site">
+	</a>
 </body>
+
+</body>
+
 </html>
