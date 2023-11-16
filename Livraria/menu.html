@@ -8,18 +8,19 @@
 	<link rel="stylesheet" href="form.css">
 	<script src="https://kit.fontawesome.com/d0d6ce2c85.js" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<script src="script/script.js"></script>
 	<title>Crie sua conta | The Book House</title>
 </head>
 
 <body>
-	<div id="background">
+	<div id="main">
+		<div id="background">
 			<div id="form">
 				<header class="titulo">
 					<h1>The Book House</h1>
 				</header>
 
-				<form action="">
+				<form action="index.html">
 					<h2 class="title">Cadastrar</h2>
 
 					<label for="Seu nome">Nome</label>
@@ -40,30 +41,29 @@
 						<input id="Senha" name="Senha" placeholder="Senha" type="password">
 					</div>
 					<br>
-					<div id="btn">
-						<button type="submit" onclick="realizarCadastro()">Cadastrar</button>
-					</div>
-					<script>
-						function realizarCadastro() {
-							// Exibir um aviso
-							alert('Cadastro realizado com sucesso!');
-						}
-					</script>
 				</form>
-				
+
+				<div id="btn">
+					<button type="submit" onclick="realizarCadastro()">Cadastrar</button>
+				</div>
 				<div id="btn">
 					<a href="index.html">
 						<button>Entrar</button>
 					</a>
 				</div>
-				<div class="logos">
-					<img src="img/logo.png" alt="Logo de um Livro">
-					<h1 class="frase">Explore mundos infinitos entre as páginas dos nossos livros.
-						Seja bem-vindo à sua jornada literária
-						na The Book House</h1>
-				</div>
 			</div>
+		</div>
+		<div id="background2">
+			<div class="logos">
+				<img src="img/logo.png" alt="Logo de um Livro">
+				<h1 class="frase">Explore mundos infinitos entre as páginas dos nossos livros.
+					Seja bem-vindo à sua jornada literária
+					na The Book House</h1>
+			</div>
+	
+		</div>
 	</div>
+
 </body>
 
 </html>
