@@ -5,19 +5,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles.css">
+	<meta name="description" content="">
+    <meta name="keywords" content="">
 	<title>The Book House</title>
 </head>
 
 <body>
-	<header>
-		<div class="container">
-			<h1>The Book House</h1>
-			<p>Livros incríveis no lugar certo</p>
-		</div>
-	</header>
-
-	<nav>
-		<div class="container">
+	<nav class="menu">
+		<div class="container flex">
+			<input type="checkbox" name="check" id="check">
+			<label for="check">&#x2630;</label>
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#livros">Livros</a></li>
@@ -26,24 +23,32 @@
 		</div>
 	</nav>
 
+	<header>
+		<div class="container">
+			<h1>The Book House</h1>
+			<p>Livros incríveis no lugar certo</p>
+		</div>
+	</header>
+
 	<!-- Propaganda -->
 	<div id="banners">
 		<img src="img/promo1.png" alt="Propaganda de livros" id="promo1">
 		<img src="img/promo2.png" alt="Propaganda de livros" id="promo2">
 	</div>
-	<div class="black">
-		<h1>Black Friday 2023: Chegou o momento de você comprar livros!</h1>
-		<h3>A Black Friday é um dos momentos mais aguardados do ano para os amantes da leitura, e a Lumisfera preparou os
-			melhores descontos para tornar esse dia ainda mais especial! Com ofertas incríveis e uma seleção de livros
-			diversa, a Black Friday Lumisfera está com livros de literatura com até 50% OFF + frete grátis para você
-			aproveitar.</h3>
+	<div class="container">
+		<div class="black">
+			<h1>Black Friday 2023: Chegou o momento de você comprar livros!</h1>
+			<h3>A Black Friday é um dos momentos mais aguardados do ano para os amantes da leitura, e a Lumisfera preparou os
+				melhores descontos para tornar esse dia ainda mais especial! Com ofertas incríveis e uma seleção de livros
+				diversa, a Black Friday Lumisfera está com livros de literatura com até 50% OFF + frete grátis para você
+				aproveitar.</h3>
+		</div>
 	</div>
-
 	<!-- LER É IMPORTANTE -->
 	<section id="sobre">
 		<div class="container flex2">
 			<div class="destaque_sobre flex2">
-				<img src="img/bliblioteca.jpg" alt="bliblioteca">
+				<img src="img/bliblioteca.jpg" alt="bliblioteca" id="biblioteca">
 			</div>
 			<article class="texto_sobre">
 				<h2>A importância de ler</h2>
