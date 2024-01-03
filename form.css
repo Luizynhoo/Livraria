@@ -17,8 +17,8 @@
 	#main {
 		background: url(img/banner.webp) center;
 		object-fit: contain;
-		width: 100%;
-		height: 100vh;
+		width: 125%;
+		height: 127vh;
 		font-family: 'Poppins', sans-serif;
 		background-size: cover;
 		display: flex;
@@ -43,7 +43,7 @@
 
 	#form {
 		position: relative;
-		top: 44%;
+		top: 114%;
 		left: 67%;
 		transform: translate(-50%, -50%);
 		border-radius: 10px;
@@ -106,7 +106,7 @@
 	}
 
 	.input {
-		min-width: 280px;
+		min-width: 240px;
 		border-radius: 22px;
 		border: 2px #ddd6d6 solid;
 		padding: 5px;
@@ -163,8 +163,7 @@
 
 
 
-
-@media (max-width: 1199px) and (min-width: 768px) {
+@media (min-width:768px) and (max-width:1199px) {
 	#main {
 		background: url(img/banner.webp) center;
 		object-fit: contain;

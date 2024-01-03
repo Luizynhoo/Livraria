@@ -295,7 +295,7 @@ footer {
 
 .flex2 {
 	display: flex;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 }
 
 .flex5 {
@@ -317,10 +317,10 @@ footer {
 	nav ul {
 		list-style: none;
 		background: rgba(129, 129, 129, 0.205);
-		height: 6vh;
+		height: 3vh;
 		position: fixed;
 		top: 60px;
-		right: -100%;
+		right: -155%;
 		width: 125%;
 		transition: all 0.5s;
 		font-size: 14px;
@@ -412,6 +412,44 @@ footer {
 	}
 
 	label {
+		display: none;
+	}
+
+}
+
+@media (min-width:768px ) and (max-width:1199px) {
+
+	#check{
+		display: none;
+	}
+
+	label {
+		display: none;
+	}
+
+	.container.flex{
+		display: contents;
+	}
+
+	#banners{
+		height: 315px;
+	}
+
+	.black h3{
+		text-align: center;
+	}
+
+	#sobre .container{
+		display: flow;
+		width: 505px;
+	}
+
+	#sobre h2{
+		height: 60px;
+		text-align: center;
+	}
+
+	.google-maps{
 		display: none;
 	}
 
